@@ -75,6 +75,10 @@ const config = {
     filename: '[name].js',
     chunkFilename: '[name].js',
   },
+  externals: {
+    react: 'React',
+    'react-dom': 'ReactDOM',
+  },
   resolve: {
     extensions: ['.mjs', '.ts', '.tsx', '.js', '.jsx'],
     fallback: {

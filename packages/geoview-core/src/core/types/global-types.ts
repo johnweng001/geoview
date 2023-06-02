@@ -1,5 +1,5 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+// import React from 'react';
+// import ReactDOM from 'react-dom';
 
 import { useTheme } from '@mui/material/styles';
 import { useTranslation } from 'react-i18next';
@@ -52,8 +52,8 @@ export interface TypeWindow extends Window {
 export type TypeCGPV = {
   init: TypeCallback;
   api: TypeApi;
-  react: typeof React;
-  reactDOM: typeof ReactDOM;
+  // react: typeof React;
+  // reactDOM: typeof ReactDOM;
   ui: TypeCGPVUI;
   useTranslation: typeof useTranslation;
   types: typeof import('./cgpv-types');

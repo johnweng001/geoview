@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import ReactDOM from 'react-dom';
 
 import { useTranslation } from 'react-i18next';
@@ -109,8 +109,8 @@ export const cgpv: types.TypeCGPV = {
     // ...api.projection, TODO: Is this tilll needed?
     ...api.plugin,
   }),
-  react: React,
-  reactDOM: ReactDOM,
+  // react: React,
+  // reactDOM: ReactDOM,
   ui: {
     useTheme,
     useMediaQuery,
